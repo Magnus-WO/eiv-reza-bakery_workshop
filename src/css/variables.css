@@ -1,0 +1,29 @@
+:root {
+  /* COLORS */
+  --bkg-color-page: #fbe7c6;
+  --bkg-color-merchwidget: #b4f8c8;
+  --bkg-color-drinkswidget: #a0e7e5;
+  --bkg-color-sweetswidget: #ffaebc;
+
+  /* FONT SIZE */
+  --font-size-small: 0.5rem;
+  --font-size-base: 1rem;
+  --font-size-medium: 1.2rem;
+  --font-size-large: 1.5rem;
+  --font-size-x-large: 2rem;
+
+  /* --text-color-light: ;
+  
+
+  /* BORDER RADIUS */
+  --border-radius-small: 0.25rem;
+  --border-radius-medium: 0.5rem;
+
+  --font-family: "montserrat", sans-serif;
+  /* SPACING */
+  --spacing-x-small: 0.25rem;
+  --spacing-small: 0.5rem;
+  --spacing-medium: 1rem;
+  --spacing-large: 2rem;
+  --spacing-x-large: 3rem;
+}
