@@ -5,5 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="navbar__container navbar__logo-container"></div>
+        <div class="navbar__container navbar__category-container">
+          <div class="navbar-category navbar-category__sweets">
+            <a href="" data-target="sweets">Sweets</a>
+          </div>
+          <div class="navbar-category navbar-category__drinks">
+            <a href="" data-target="drinks">Drinks</a>
+          </div>
+          <div class="navbar-category navbar-category__merch">
+            <a href="" data-target="merch">Merch</a>
+          </div>
+          <a href="./src/pages/contact-page.html">
+            <button class="navbar-contact navbar-category">Contact</button>
+          </a>
+        </div>
+        <div class="navbar__container navbar__cart-container"></div>
+      </nav>
+    </header>
+    <main>
+      <form class="form">
+        <div class="form-group">
+          <label for="name">What do we call you?</label>
+          <input type="text" id="name" name="name" placeholder="" />
+        </div>
+        <div class="form-group">
+          <label for="email">How do we reach you?</label>
+          <input type="email" id="email" name="email" placeholder="E-mail?" />
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="phone? (8 digits)"
+          />
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" cols="50" rows="50"></textarea>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+  </body>
 </html>
