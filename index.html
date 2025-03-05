@@ -9,19 +9,17 @@
   <body>
     <header>
       <nav class="navbar">
-        <div class="navbar__container navbar__logo-container"></div>
+        <div class="navbar__container navbar__logo-container">
+          <a href="/index.html"
+            ><img src="/public/assets/images/doughMyGosh-logo.png" alt=""
+          /></a>
+        </div>
         <div class="navbar__container navbar__category-container">
-          <div class="navbar-category navbar-category__sweets">
-            <a href="" data-target="sweets">Sweets</a>
-          </div>
-          <div class="navbar-category navbar-category__drinks">
-            <a href="" data-target="drinks">Drinks</a>
-          </div>
-          <div class="navbar-category navbar-category__merch">
-            <a href="" data-target="merch">Merch</a>
-          </div>
+          <a href="./src/pages/order-page.html">
+            <button>Shop</button>
+          </a>
           <a href="./src/pages/contact-page.html">
-            <button class="navbar-contact navbar-category">Contact Us!</button>
+            <button class="navbar-contact navbar-category">Contact</button>
           </a>
         </div>
         <div class="navbar__container navbar__cart-container"></div>
@@ -31,9 +29,11 @@
       <section class="hero-section">
         <div class="hero-section__image-container"></div>
         <h2></h2>
-        <button>Shop Now</button>
+        <a href="./order-page.html">
+          <button>Shop Now</button>
+        </a>
       </section>
-      <section class="widgets-section">
+      <section class="hero__widgets-section">
         <div class="info-container">
           <h1></h1>
           <p></p>

@@ -3,29 +3,62 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Dough my Gosh!</title>
   </head>
   <body>
     <header>
       <nav class="navbar">
-        <div class="navbar__container navbar__logo-container"></div>
+        <div class="navbar__container navbar__logo-container">
+          <a href="/index.html"
+            ><img src="/public/assets/images/doughMyGosh-logo.png" alt=""
+          /></a>
+        </div>
         <div class="navbar__container navbar__category-container">
-          <div class="navbar-category navbar-category__sweets">
-            <a href="" data-target="sweets">Sweets</a>
-          </div>
-          <div class="navbar-category navbar-category__drinks">
-            <a href="" data-target="drinks">Drinks</a>
-          </div>
-          <div class="navbar-category navbar-category__merch">
-            <a href="" data-target="merch">Merch</a>
-          </div>
-          <a href="./src/pages/contact-page.html">
+          <a href="./order-page.html">
+            <button>Shop</button>
+          </a>
+          <a href="./contact-page.html">
             <button class="navbar-contact navbar-category">Contact</button>
           </a>
         </div>
         <div class="navbar__container navbar__cart-container"></div>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <section class="products__widgets-container">
+        <div class="products__widget">
+          <img src="" alt="" />
+          <h2>Sweet</h2>
+        </div>
+        <div class="products__widget">
+          <img src="" alt="" />
+          <h2>Drinks</h2>
+        </div>
+        <div class="products__widget">
+          <img src="" alt="" />
+          <h2>Merch</h2>
+        </div>
+      </section>
+      <section class="tools-container">
+        <select name="sort" id="sort">
+          <option value="all">All</option>
+          <option value="low-to-high">Price: low to high</option>
+          <option value="high-to-low">Price: high to low</option>
+        </select>
+      </section>
+      <section class="products-container">
+        <div class="products">
+          <ul class="products-list">
+            <li>Pru</li>
+            <!-- Products will be inserted here dynamically -->
+          </ul>
+        </div>
+        <div class="allergies-container">
+          <ul class="allergies-list">
+            <!-- Allergies will be inserted here dynamically -->
+          </ul>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
