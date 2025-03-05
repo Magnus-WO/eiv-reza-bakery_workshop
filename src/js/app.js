@@ -1,8 +1,11 @@
+import app from "./firebaseConfig.js";
 import FormValidation from "./form.js";
+app;
 
 //Fetching html elements
 const form = document.querySelector(".form");
 const formFeedbackMessage = document.querySelector(".feedbackMessage");
+console.log(app);
 
 //Adding eventlisteners
 
