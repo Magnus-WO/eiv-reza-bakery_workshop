@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/variables.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Dough my Gosh!</title>
   </head>
   <body>
     <header>
@@ -25,6 +28,7 @@
       </nav>
     </header>
     <main>
+      <!-- Form -->
       <form class="form">
         <div class="form-group">
           <label for="name">What do we call you?</label>
@@ -42,11 +46,12 @@
         </div>
         <div class="form-group">
           <label for="message">Message:</label>
-          <textarea id="message" name="message" cols="50" rows="50"></textarea>
+          <textarea id="message" name="message" cols="50" rows="10"></textarea>
         </div>
-
+        <p class="feedbackMessage"></p>
         <button type="submit">Submit</button>
       </form>
     </main>
+    <script src="../js/app.js" type="module"></script>
   </body>
 </html>
